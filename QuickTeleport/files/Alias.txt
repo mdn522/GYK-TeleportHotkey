@@ -1,0 +1,4 @@
+Home=gd_player_respawn
+Quarry=gd_enbl_mining_hut_workyard
+QuarryHut=gd_player_respawn_1
+RefugeeCamp=camp_idle_1
