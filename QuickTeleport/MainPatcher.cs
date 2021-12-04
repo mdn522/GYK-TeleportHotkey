@@ -88,11 +88,6 @@ namespace QuickTeleport {
 		public class Options {
 			public SinglePressKey ConfigReloadKey;// = new SinglePressKey(KeyCode.F5);
 			public SinglePressKey DumpGDPointsKey = null;// = new SinglePressKey(KeyCode.F6);
-			//public SinglePressKey TP_HomeInsideKey = new SinglePressKey(KeyCode.Keypad0);
-			//public SinglePressKey TP_HomeOutsideKey = new SinglePressKey(KeyCode.Keypad1);
-			//public SinglePressKey TP_GraveYardKey = new SinglePressKey(KeyCode.Keypad2);
-			//public SinglePressKey TP_MorgueKey = new SinglePressKey(KeyCode.Keypad3);
-			//public SinglePressKey TP_QuarryKey = new SinglePressKey(KeyCode.Keypad4);
 			public Dictionary<string, SinglePressKey> ArbitraryGDPointKeys = new Dictionary<string, SinglePressKey>();
 			public Dictionary<string, string> GDPointAliases = new Dictionary<string, string>();
 
@@ -178,6 +173,7 @@ namespace QuickTeleport {
 							default:
 								try {
 									// TODO remove this IF CLAUSE as ArbitraryGDPointKeys is being cleared each time config is reloaded
+									// TODO test with new additions and deletions
 									if (!options_.ArbitraryGDPointKeys.ContainsKey(key)) {
 										options_.ArbitraryGDPointKeys[key] = new SinglePressKey(Enum<KeyCode>.Parse(rawVal));
 									} else {
@@ -198,8 +194,8 @@ namespace QuickTeleport {
 					}
 					string[] pair = line.Split('=');
 					if (pair.Length > 1) {
-						string key = pair[0];
-						string rawVal = pair[1];
+						string key = pair[0]; // Alias
+						string rawVal = pair[1]; // GD Point Tag
 						try {
 							options_.GDPointAliases[key] = rawVal;
 						} catch { }
