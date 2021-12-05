@@ -63,4 +63,4 @@ Configuration of the mod can be done by manually changing the configuration valu
 
 
 ## [ Credits ] ##
-[mdn522](https://github.com/mdn522)
+[antiftw](https://github.com/antiftw) / [AntiFTW](https://www.nexusmods.com/graveyardkeeper/users/40181295) for the  [README boilarplate](https://github.com/antiftw/gyk-nkn-fix/blob/master/README.MD)
