@@ -4,10 +4,10 @@ using System.Reflection;
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace QuickTeleport {
+namespace TeleportHotkey {
 	public class MainPatcher {
 		public static void Patch() {
-			HarmonyInstance harmony = HarmonyInstance.Create("com.mdn522.quickteleport.mod");
+			HarmonyInstance harmony = HarmonyInstance.Create("com.mdn522.teleporthotkey.mod");
 			harmony.PatchAll(Assembly.GetExecutingAssembly());
 		}
 	}
@@ -100,7 +100,7 @@ namespace QuickTeleport {
 		}
 
 		public static void Log(string line) {
-			File.AppendAllText(@"./QMods/QuickTeleport/log.txt", line);
+			File.AppendAllText(@"./QMods/TeleportHotkey/log.txt", line);
 		}
 
 		private static bool parseBool(string raw) {
@@ -141,8 +141,8 @@ namespace QuickTeleport {
 				return options_;
 			}
 
-			string cfgPath = @"./QMods/QuickTeleport/config.txt";
-			string aliasPath = @"./QMods/QuickTeleport/Alias.txt";
+			string cfgPath = @"./QMods/TeleportHotkey/config.txt";
+			string aliasPath = @"./QMods/TeleportHotkey/Alias.txt";
 
 			options_.ArbitraryGDPointKeys.Clear();
 			options_.GDPointAliases.Clear();
@@ -166,7 +166,11 @@ namespace QuickTeleport {
 								break;
 							case "DumpGDPointsKey":
 								try {
-									options_.DumpGDPointsKey.ChangeKey(Enum<KeyCode>.Parse(rawVal));
+									if (options_.DumpGDPointsKey == null) {
+										options_.DumpGDPointsKey = new SinglePressKey(Enum<KeyCode>.Parse(rawVal));
+									} else {
+										options_.DumpGDPointsKey.ChangeKey(Enum<KeyCode>.Parse(rawVal));
+									}
 								}
 								catch { }
 								break;

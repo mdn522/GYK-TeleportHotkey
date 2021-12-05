@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickTeleport", "QuickTeleport\QuickTeleport.csproj", "{700C6F12-C0FF-4B98-AA54-C52BCC102563}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleportHotkey", "TeleportHotkey\TeleportHotkey.csproj", "{700C6F12-C0FF-4B98-AA54-C52BCC102563}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

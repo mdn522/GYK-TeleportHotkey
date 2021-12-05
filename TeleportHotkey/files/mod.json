@@ -1,0 +1,11 @@
+{
+  "Id": "TeleportHotkey",
+  "DisplayName": "TeleportHotkey",
+  "Author": "Abdullah Mallik",
+  "Version": "0.1.1",
+  "Requires": [ ],
+  "Enable": true,
+  "AssemblyName": "TeleportHotkey.dll",
+  "EntryMethod": "TeleportHotkey.MainPatcher.Patch",
+  "Config": {}
+}

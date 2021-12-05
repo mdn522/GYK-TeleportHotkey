@@ -1,4 +1,0 @@
-ConfigReloadKey=F5
-Home=Keypad1
-gd_enbl_mining_hut_workyard=Keypad4
-camp_idle_1=Keypad5

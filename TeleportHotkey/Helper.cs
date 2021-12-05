@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace QuickTeleport {
+namespace TeleportHotkey {
     public static class Helper {
-        public static string logPath = ".\\QMods\\QuickTeleport\\log.txt";
-        public static string errorPath = ".\\QMods\\QuickTeleport\\error.txt";
+        public static string logPath = ".\\QMods\\TeleportHotkey\\log.txt";
+        public static string errorPath = ".\\QMods\\TeleportHotkey\\error.txt";
 
         public static void Log(string v, bool error = false) {
             using (StreamWriter streamWriter = File.AppendText(error ? Helper.errorPath : Helper.logPath))

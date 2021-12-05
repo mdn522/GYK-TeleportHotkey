@@ -7,8 +7,8 @@
     <ProjectGuid>{700C6F12-C0FF-4B98-AA54-C52BCC102563}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QuickTeleport</RootNamespace>
-    <AssemblyName>QuickTeleport</AssemblyName>
+    <RootNamespace>TeleportHotkey</RootNamespace>
+    <AssemblyName>TeleportHotkey</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

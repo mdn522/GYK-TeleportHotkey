@@ -1,0 +1,8 @@
+ConfigReloadKey=F5
+# DumpGDPointsKey=F6
+
+Home=Keypad0
+Workyard=Keypad1
+QuarrySouth=Keypad4
+RefugeeCamp=Keypad8
+

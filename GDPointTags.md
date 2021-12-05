@@ -5,12 +5,40 @@ Dumped
 
 ## Known GD Point Tags
 
-|  GD Point Tag | Alias | Note  |
+*Alias is subject to change if a more proper GD Point Tag is found
+
+|  GD Point Tag | Alias | Location/Note  |
 | ------------- | ----- | ----- |
-| gd_player_respawn | Home | **Home**: Inside |
-| gd_player_respawn_1 | QuarryHut | **Quarry**: Inside Hut |
-| gd_enbl_mining_hut_workyard | Quarry | **Quarry**: Between Building Area and Marble Deposit |
 | camp_idle_1 | RefugeeCamp | Somewhere Outside Refugee Camp |
+| cellar_d | Cellar | **Cellar** |
+| cellar_storage_d | | **Cellar** Crate Storage |
+| church_inside_1 | Church | **Church**: Inside |
+| dungeon | | **Bee Farm** |
+| enter_to_church | ChurchGateOutside | **Graveyard** Church Gate |
+| graveyard_to_church | | **Graveyard**: Center |
+| gd_player_stand | SacrificeZone | **Sacrifice Zone**: South of the Dungeon |
+| gd_player_respawn | Home | **Home**: Inside |
+| gd_player_respawn_1 | QuarryHut | **Quarry Hut**: |
+| gd_enbl_mining_hut_workyard | Quarry | **Quarry**: Between Building Area and Marble Deposit |
+| mf_wood_d | | **Workyard**: Left Entrance |
+| mf_wood_d_2 | Workyard | **Workyard**: Left Entrance (Little Bit Right) |
+| player_tavern_cellar_d | TavernCellar | **Tavern Cellar** |
+| stone_workyard_d | QuarrySouth | **Quarry**: South of Hut |
+| storage_d | | **Merchant Storage**: |
+| storage_merchant_point | | **Merchant Storage**: Middle of Crates |
+| swamp_fishing_spot_point | SwampFishingSpot | **Swamp**: Fishing Spot |
+| vineyard_d | Vinyard | **Vinyard** |
+
+### Proper GD Points Still Unknown for Following Locations: 
+* Dead Horse
+* Lighthouse
+* Mountain Fort
+* Morgue
+* Alchemy Lab
+* Talking Skull
+* etc.
+
+You have to search through all GD points below to find them if it exists. it's a very time consuming task. if you find it. let us know ;)
 
 ---
 

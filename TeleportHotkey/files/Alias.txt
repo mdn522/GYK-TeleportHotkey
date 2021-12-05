@@ -1,0 +1,14 @@
+# For More GD Points Refer to https://github.com/mdn522/GYK-QuickTeleport/blob/main/GDPointTags.md
+Cellar=cellar_d
+Church=church_inside_1
+ChurchGateOutside=enter_to_church
+Home=gd_player_respawn
+RefugeeCamp=camp_idle_1
+Quarry=gd_enbl_mining_hut_workyard
+QuarryHut=gd_player_respawn_1
+QuarrySouth=stone_workyard_d
+SacrificeZone=gd_player_stand
+SwampFishingSpot=swamp_fishing_spot_point
+TavernCellar=player_tavern_cellar_d
+Vinyard=vineyard_d
+Workyard=mf_wood_d_2
