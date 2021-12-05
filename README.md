@@ -1,4 +1,4 @@
-# Quick Teleport - Teleport Using Hotkey #
+# TeleportHotkey - Teleport Using Hotkey #
 
 ## [ Compatibility ] ##
 * Graveyard Keeper 1.404
@@ -28,7 +28,7 @@ The last one will only be present **after** QModManager is installed, the rest a
 
 Assuming that you are using Visual Studio to compile this project, you can just:
 * Go to the `Solution Explorer`
-* Right click the `References` item (located under the `QuickTeleport` project)
+* Right click the `References` item (located under the `TeleportHotkey` project)
 * Click `Add Reference`
 * Click `Browse`
 * Navigate to the `%game_path%\Graveyard Keeper_Data\Managed\` folder
@@ -36,14 +36,14 @@ Assuming that you are using Visual Studio to compile this project, you can just:
 * Click `Ok` to confirm adding the files
 * This will in fact not re-add the same references, but rather update the paths of the ones that were already listed
 * Once this is done, you should be able to build the project
-* This will result in a new compiled .DLL file, called `QuickTeleport.dll`, located in:
+* This will result in a new compiled .DLL file, called `TeleportHotkey.dll`, located in:
   - `%project_path%/bin/Debug` - when running a Debug build 
   - `%project_path%/bin/Release` - when running a Release build 
 
 ### [ Output ] ###
-  * Compiles to `%repo_path%/QuickTeleport/bin/debug/QuickTeleport.dll`
+  * Compiles to `%repo_path%/TeleportHotkey/bin/debug/TeleportHotkey.dll`
 
-For the proper functioning of the mod, three additional files are required, which can be found in `QuickTeleport/files/`:
+For the proper functioning of the mod, three additional files are required, which can be found in `TeleportHotkey/files/`:
 
 ### [ Additional files ] ###
 
@@ -54,8 +54,8 @@ For the proper functioning of the mod, three additional files are required, whic
 ## [ Installation ] ##
 
 1. Make sure QModManager is [installed and configured](https://www.nexusmods.com/graveyardkeeper/mods/1) properly.
-2. Create a new directory named `QuickTeleport` in the `Qmods` directory in your Graveyard Keepers.
-3. Copy all (either 3 or 4) files mentioned in the previous section to the that directory (`%game_path%\QMods\QuickTeleport\`).
+2. Create a new directory named `TeleportHotkey` in the `Qmods` directory in your Graveyard Keepers.
+3. Copy all (either 3 or 4) files mentioned in the previous section to the that directory (`%game_path%\QMods\TeleportHotkey\`).
 4. If you decided to copy the config.txt file manually, the mod will now work with the default values.
 
 ## [ Configuration ] ##
